@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | sed 's/ oo//g' | tr ':[ ]:' '\n'
+echo {a..n}{a..z} {o..p}{a..n} {p..p}{o..o} {o..p}{p..z} {q..z}{a..z} | tr ':[ ]:' '\n' | sort
